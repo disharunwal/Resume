@@ -9,7 +9,7 @@ function About() {
       <div>
         <h1 className="text-3xl font-bold mb-5">About</h1>
         <p>
-          Hello, I'm Akhil, a passionate Web developer with a keen eye for MERN
+          Hello, I'm Disha Runwal, a passionate Web developer with a keen eye for MERN
           Stack . With a background in IT, I strive to create impactful and
           visually stunning Software solutions that leave a lasting impression.
         </p>
@@ -18,9 +18,9 @@ function About() {
           Education & Training
         </h1>
         <span>
-          [Degree/Certification], [Institution], [Year] [Degree/Certification],
-          [Institution], [Year] [Relevant Course], [Platform/Institution],
-          [Year]
+          [B.Tech(CSE)], [Walchand Institute of Technology,Solapur][9.24CGPA], [2021-2025] [12th],
+          [Tungal PU SCience College],[87%], [2019-2021] [10th], [BLDE CBSE School],[92%]
+          [2018-2019]
         </span>
         <br />
         <br />
@@ -28,22 +28,19 @@ function About() {
           Skills & Expertise
         </h1>
         <span>
-          Proficient in [Programming Languages] Experienced with [Software
-          Tools/Technologies] Strong grasp of [Design Principles/Concepts]
+          Proficient in [JAVA,C,CPP] Technology[HTML,CSS,JAVASCRIPT,REACT,BOOTSTRAP,TAILWIND,MYSQL,EXPRESS.JS,NODE.JS,MONGODB]
           Excellent problem-solving skills Effective communicator and
-          collaborator
+          collaborator.
         </span>
         <br />
         <br />
         <h1 className="text-green-600 font-semibold text-xl">
-          Professional Experience
+          Internship
         </h1>
         <span>
-          [Job Title], [Company/Organization], [Dates] [Brief description of
-          responsibilities and achievements] [Job Title],
-          [Company/Organization], [Dates] [Brief description of responsibilities
-          and achievements] [Freelance/Contract Work], [Client/Organization],
-          [Dates] [Brief description of projects and contributions]
+          [Frontend Development], [Internship at [Technohack]], [2months]
+          [Full Stack Development], [Internship at [Aadi Foundation]], [4months]
+         
         </span>
         <br />
         <br />
@@ -51,8 +48,7 @@ function About() {
           Achievements & Awards
         </h1>
         <span>
-          [Award/Recognition], [Organization/Institution], [Year] [Achievement],
-          [Organization/Platform], [Year]
+          [Winner of G20 PPT Presentation], [Walchand Institute Of Technology], [2022-2023] 
         </span>
         <br />
         <br />
@@ -61,7 +57,7 @@ function About() {
         </h1>
         <p>
           My mission is to leverage my skills and creativity to deliver
-          innovative [Your Field] solutions that exceed client expectations and
+          innovative  solutions that exceed client expectations and
           contribute positively to the digital landscape. I am committed to
           continuous learning and growth, always seeking new challenges and
           opportunities to expand my horizons.

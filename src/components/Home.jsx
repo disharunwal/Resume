@@ -1,6 +1,6 @@
 import React from "react";
 
-import pic from "../../public/photo.avif";
+import pic from "../../public/profile.jpg";
 
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
@@ -37,11 +37,7 @@ function Home() {
             </div>
             <br />
             <p className="text-sm md:text-md text-justify">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Quisquam, recusandae consequatur. Accusamus sint libero eligendi
-              laborum fuga repudiandae? Asperiores tempore eos animi dolores
-              corrupti! Sint quos, mollitia architecto aliquam nesciunt, optio
-              cum delectus sit voluptatum aut ratione quaerat veniam aperiam!
+             I am Disha Runwal, as a passionate and detail-oriented full-stack developer, I specialize in building robust and scalable web applications that provide a seamless user experience from end to end. My expertise spans both front-end and back-end development, allowing me to create cohesive and dynamic solutions tailored to the specific needs of each project.
             </p>
             <br />
             {/* social media icons */}
@@ -55,17 +51,13 @@ function Home() {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
+                    <a href="www.linkedin.com/in/disha-runwal-663131234" target="_blank">
                       <FaLinkedin className="text-2xl cursor-pointer" />
                     </a>
                   </li>
+                  
                   <li>
-                    <a href="https://www.youtube.com/" target="_blank">
-                      <IoLogoYoutube className="text-2xl cursor-pointer" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://t.me/" target="_blank">
+                    <a href="https://t.me/@disharunwal" target="_blank">
                       <FaTelegram className="text-2xl cursor-pointer" />
                     </a>
                   </li>
