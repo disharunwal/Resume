@@ -1,71 +1,57 @@
 import React from "react";
 
-function PortFolio() {
-  const projects = [
-    {
-      title: "Weather Application",
-      description:
-        "User can check humidity, weather, and temperature details of any city.",
-      techStack: "HTML, CSS, JavaScript",
-      link: "https://wethersearch.netlify.app",
-    },
-    {
-      title: "Music App",
-      description:
-        "My music player consist of my own Music Album.",
-      techStack: "HTML,CSS,Javascript",
-      link: "https://playmus.netlify.app/",
-    },
-    {
-      title: "Movie Review App",
-      description:
-        "User can add,delete,edit ratings and review .All the movies fetched through OMDB API",
-      techStack: "React.js,Bootstrap",
-      link: "",
-    },
-    {
-      title: "Cafe Management System",
-      description:
-        "A task management application with drag-and-drop functionality, collaboration features, and cloud service integration.",
-      techStack: "Complete MERN ",
-      link: "",
-    },
-
-  ];
-
+function About() {
   return (
     <div
-      name="Portfolio"
-      className="max-w-screen-2xl container mx-auto px-4 md:px-20 mt-10"
+      name="About"
+      className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-20 my-10 lg:my-20"
     >
       <div>
-        <h1 className="text-3xl font-bold mb-5">PortFolio</h1>
-        <span className="underline font-semibold">Featured Projects</span>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 my-5">
-          {projects.map((project, index) => (
-            <div
-              key={index}
-              className="border-[2px] rounded-lg shadow-lg p-4 cursor-pointer hover:scale-105 duration-300"
-            >
-              <h3 className="font-bold text-xl mb-2">{project.title}</h3>
-              <p className="text-gray-700 mb-4">{project.description}</p>
-              <p className="text-gray-500 mb-4">Tech Stack: {project.techStack}</p>
-              <div className="flex justify-center">
-                <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded"
-                >
-                  Visit My Website
-                </a>
-              </div>
-            </div>
-          ))}
-        </div>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">About</h1>
+        <p className="text-base sm:text-lg leading-relaxed mb-6">
+          Hello, I'm Disha Runwal, a passionate Web developer with a keen eye for MERN Stack. With a background in IT, I strive to create impactful and visually stunning software solutions that leave a lasting impression.
+        </p>
+        <h2 className="text-xl font-semibold mb-2" style={{ color: '#800020' }}>
+          Education & Training
+        </h2>
+        <p className="text-base sm:text-lg leading-relaxed mb-6">
+          [B.Tech(CSE)], [Walchand Institute of Technology, Solapur] [9.24 CGPA], [2021-2025]
+          <br />
+          [12th], [Tungal PU Science College] [87%], [2019-2021]
+          <br />
+          [10th], [BLDE CBSE School] [92%], [2018-2019]
+        </p>
+        <h2 className="text-xl font-semibold mb-2" style={{ color: '#800020' }}>
+          Skills & Expertise
+        </h2>
+        <p className="text-base sm:text-lg leading-relaxed mb-6">
+          Proficient in [JAVA, C, CPP], Technologies: [HTML, CSS, JAVASCRIPT, REACT, BOOTSTRAP, TAILWIND, MYSQL, EXPRESS.JS, NODE.JS, MONGODB]
+          <br />
+          Excellent problem-solving skills. Effective communicator and collaborator.
+        </p>
+        <h2 className="text-xl font-semibold mb-2" style={{ color: '#800020' }}>
+          Internship
+        </h2>
+        <p className="text-base sm:text-lg leading-relaxed mb-6">
+          [Frontend Development], [Internship at Technohack], [2 months]
+          <br />
+          [Full Stack Development], [Internship at Aadi Foundation], [4 months]
+        </p>
+        <h2 className="text-xl font-semibold mb-2" style={{ color: '#800020' }}>
+          Achievements & Awards
+        </h2>
+        <p className="text-base sm:text-lg leading-relaxed mb-6">
+          [Winner of G20 PPT Presentation], [Walchand Institute of Technology], [2022-2023]
+        </p>
+        <h2 className="text-xl font-semibold mb-2" style={{ color: '#800020' }}>
+          Mission Statement
+        </h2>
+        <p className="text-base sm:text-lg leading-relaxed">
+          My mission is to leverage my skills and creativity to deliver innovative solutions that exceed client expectations and contribute positively to the digital landscape. I am committed to continuous learning and growth, always seeking new challenges and opportunities to expand my horizons.
+        </p>
       </div>
     </div>
   );
 }
 
-export default PortFolio;
+export default About;
