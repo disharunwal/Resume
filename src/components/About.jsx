@@ -4,63 +4,55 @@ function About() {
   return (
     <div
       name="About"
-      className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20"
+      className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-20 my-10 lg:my-20"
     >
       <div>
-        <h1 className="text-3xl font-bold mb-5">About</h1>
-        <p>
-          Hello, I'm Disha Runwal, a passionate Web developer with a keen eye for MERN
-          Stack . With a background in IT, I strive to create impactful and
-          visually stunning Software solutions that leave a lasting impression.
+        <h1 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">About</h1>
+        <p className="text-base sm:text-lg leading-relaxed mb-6">
+          Hello, I'm Disha Runwal, a passionate Web developer with a keen eye for MERN Stack. With a background in IT, I strive to create impactful and visually stunning software solutions that leave a lasting impression.
         </p>
-        <br />
-        <h1 className=" font-semibold text-xl"  style={{ color: '#800020' }}>
+
+        <h2 className="text-xl sm:text-2xl font-semibold mb-3" style={{ color: '#800020' }}>
           Education & Training
-        </h1>
-        <span>
-          [B.Tech(CSE)], [Walchand Institute of Technology,Solapur][9.24CGPA], [2021-2025] [12th],
-          [Tungal PU SCience College],[87%], [2019-2021] [10th], [BLDE CBSE School],[92%]
-          [2018-2019]
-        </span>
-        <br />
-        <br />
-        <h1 className=" font-semibold text-xl" style={{ color: '#800020' }}>
+        </h2>
+        <p className="text-base sm:text-lg leading-relaxed mb-6">
+          [B.Tech(CSE)], [Walchand Institute of Technology, Solapur] [9.24 CGPA], [2021-2025]
+          <br />
+          [12th], [Tungal PU Science College] [87%], [2019-2021]
+          <br />
+          [10th], [BLDE CBSE School] [92%], [2018-2019]
+        </p>
+
+        <h2 className="text-xl sm:text-2xl font-semibold mb-3" style={{ color: '#800020' }}>
           Skills & Expertise
-        </h1>
-        <span>
-          Proficient in [JAVA,C,CPP] Technology[HTML,CSS,JAVASCRIPT,REACT,BOOTSTRAP,TAILWIND,MYSQL,EXPRESS.JS,NODE.JS,MONGODB]
-          Excellent problem-solving skills Effective communicator and
-          collaborator.
-        </span>
-        <br />
-        <br />
-        <h1 className=" font-semibold text-xl" style={{ color: '#800020' }}>
+        </h2>
+        <p className="text-base sm:text-lg leading-relaxed mb-6">
+          Proficient in [JAVA, C, CPP]. Technologies: [HTML, CSS, JAVASCRIPT, REACT, BOOTSTRAP, TAILWIND, MYSQL, EXPRESS.JS, NODE.JS, MONGODB]
+          <br />
+          Excellent problem-solving skills. Effective communicator and collaborator.
+        </p>
+
+        <h2 className="text-xl sm:text-2xl font-semibold mb-3" style={{ color: '#800020' }}>
           Internship
-        </h1>
-        <span>
-          [Frontend Development], [Internship at [Technohack]], [2months]
-          [Full Stack Development], [Internship at [Aadi Foundation]], [4months]
-         
-        </span>
-        <br />
-        <br />
-        <h1 className=" font-semibold text-xl" style={{ color: '#800020' }}>
+        </h2>
+        <p className="text-base sm:text-lg leading-relaxed mb-6">
+          [Frontend Development], [Internship at Technohack], [2 months]
+          <br />
+          [Full Stack Development], [Internship at Aadi Foundation], [4 months]
+        </p>
+
+        <h2 className="text-xl sm:text-2xl font-semibold mb-3" style={{ color: '#800020' }}>
           Achievements & Awards
-        </h1>
-        <span>
-          [Winner of G20 PPT Presentation], [Walchand Institute Of Technology], [2022-2023] 
-        </span>
-        <br />
-        <br />
-        <h1 className=" font-semibold text-xl" style={{ color: '#800020' }}>
+        </h2>
+        <p className="text-base sm:text-lg leading-relaxed mb-6">
+          [Winner of G20 PPT Presentation], [Walchand Institute of Technology], [2022-2023]
+        </p>
+
+        <h2 className="text-xl sm:text-2xl font-semibold mb-3" style={{ color: '#800020' }}>
           Mission Statement
-        </h1>
-        <p>
-          My mission is to leverage my skills and creativity to deliver
-          innovative  solutions that exceed client expectations and
-          contribute positively to the digital landscape. I am committed to
-          continuous learning and growth, always seeking new challenges and
-          opportunities to expand my horizons.
+        </h2>
+        <p className="text-base sm:text-lg leading-relaxed">
+          My mission is to leverage my skills and creativity to deliver innovative solutions that exceed client expectations and contribute positively to the digital landscape. I am committed to continuous learning and growth, always seeking new challenges and opportunities to expand my horizons.
         </p>
       </div>
     </div>
