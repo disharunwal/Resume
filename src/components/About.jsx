@@ -14,7 +14,7 @@ function About() {
           visually stunning Software solutions that leave a lasting impression.
         </p>
         <br />
-        <h1 className="text-green-600 font-semibold text-xl">
+        <h1 className=" font-semibold text-xl"  style={{ color: '#800020' }}>
           Education & Training
         </h1>
         <span>
@@ -24,7 +24,7 @@ function About() {
         </span>
         <br />
         <br />
-        <h1 className="text-green-600 font-semibold text-xl">
+        <h1 className=" font-semibold text-xl" style={{ color: '#800020' }}>
           Skills & Expertise
         </h1>
         <span>
@@ -34,7 +34,7 @@ function About() {
         </span>
         <br />
         <br />
-        <h1 className="text-green-600 font-semibold text-xl">
+        <h1 className=" font-semibold text-xl" style={{ color: '#800020' }}>
           Internship
         </h1>
         <span>
@@ -44,7 +44,7 @@ function About() {
         </span>
         <br />
         <br />
-        <h1 className="text-green-600 font-semibold text-xl">
+        <h1 className=" font-semibold text-xl" style={{ color: '#800020' }}>
           Achievements & Awards
         </h1>
         <span>
@@ -52,7 +52,7 @@ function About() {
         </span>
         <br />
         <br />
-        <h1 className="text-green-600 font-semibold text-xl">
+        <h1 className=" font-semibold text-xl" style={{ color: '#800020' }}>
           Mission Statement
         </h1>
         <p>
