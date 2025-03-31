@@ -1,4 +1,4 @@
-import React from "react";
+
 
 function About() {
   return (
@@ -16,11 +16,11 @@ function About() {
           Education & Training
         </h2>
         <p className="text-base sm:text-lg leading-relaxed mb-6">
-          [B.Tech(CSE)], [Walchand Institute of Technology, Solapur] [9.24 CGPA], [2021-2025]
+          [B.Tech(CSE)], [Walchand Institute of Technology, Solapur] [9.27 CGPA], [2021-2025]
           <br />
           [12th], [Tungal PU Science College] [87%], [2019-2021]
           <br />
-          [10th], [BLDE CBSE School] [92%], [2018-2019]
+          [10th], [BLDE CBSE School] [90%], [2018-2019]
         </p>
 
         <h2 className="text-xl sm:text-2xl font-semibold mb-3" style={{ color: '#800020' }}>
@@ -38,7 +38,7 @@ function About() {
         <p className="text-base sm:text-lg leading-relaxed mb-6">
           [Frontend Development], [Internship at Technohack], [2 months]
           <br />
-          [Full Stack Development], [Internship at Aadi Foundation], [4 months]
+          [Full Stack Development], [Internship at Octanet], [4 months]
         </p>
 
         <h2 className="text-xl sm:text-2xl font-semibold mb-3" style={{ color: '#800020' }}>

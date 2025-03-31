@@ -1,12 +1,10 @@
-import React from "react";
+
 
 import pic from "../../public/profile.jpg";
 
-import { FaSquareFacebook } from "react-icons/fa6";
+import { FaSquareInstagram} from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-import { IoLogoYoutube } from "react-icons/io";
 import { FaTelegram } from "react-icons/fa6";
-
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
@@ -46,12 +44,12 @@ function Home() {
                 <h1 className="font-bold text-center ">Available on</h1>
                 <ul className="flex space-x-5">
                   <li>
-                    <a href="https://www.facebook.com/" target="_blank">
-                      <FaSquareFacebook className="text-2xl cursor-pointer" />
+                    <a href="https://www.instagram.com/disha_runwal?igsh=cm1qNHJlODFheTI0" target="_blank">
+                      <FaSquareInstagram className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
-                    <a href="www.linkedin.com/in/disha-runwal-663131234" target="_blank">
+                    <a href="http://linkedin.com/in/disha-runwal-663131234/" target="_blank">
                       <FaLinkedin className="text-2xl cursor-pointer" />
                     </a>
                   </li>

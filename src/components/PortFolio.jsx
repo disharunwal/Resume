@@ -1,4 +1,4 @@
-import React from "react";
+
 
 function PortFolio() {
   const projects = [
@@ -24,11 +24,11 @@ function PortFolio() {
       link: "",
     },
     {
-      title: "Cafe Management System",
+      title: "Noble Giving",
       description:
-        "A task management application with drag-and-drop functionality, collaboration features, and cloud service integration.",
+        "As a member of the development team, I contributed to the design, development of Noble Giving's official website. My responsibilities included creating a responsive and visually appealing user interface, implementing key functionalities, and ensuring seamless user experience.",
       techStack: "Complete MERN ",
-      link: "",
+      link: "http://noblegiving.in/",
     },
     {
       title: "Cryptomous Funding App",
