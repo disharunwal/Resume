@@ -27,7 +27,7 @@ function Contact() {
   };
 
   return (
-    <div name="Contact" className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16">
+    <div name="Contact" className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16 text-center ">
       <h1 className="text-3xl font-bold mb-4">Contact me</h1>
       <span>Please fill out the form below to contact me</span>
       <div className="flex flex-col items-center justify-center mt-5">

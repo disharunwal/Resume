@@ -36,17 +36,24 @@ function PortFolio() {
         "This is Funding Site for Cryptocurrency",
       techStack: "Complete MERN Stack",
       link: "https://cryptomus-n8rbqflil-disharunwals-projects.vercel.app/",
+    },
+    {
+      title: "Gemburg Website",
+      description:
+        "This is Company's Official Website",
+      techStack: "Complete MERN Stack",
+      link: "https://gemburg.com/",
     }
 
   ];
 
   return (
     <div
-      name="Portfolio"
+      name="Projects"
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 mt-10"
     >
       <div>
-        <h1 className="text-3xl font-bold mb-5">PortFolio</h1>
+        <h1 className="text-3xl font-bold mb-5 text-center ">Projects</h1>
         <span className="underline font-semibold">Featured Projects</span>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 my-5">
           {projects.map((project, index) => (
