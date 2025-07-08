@@ -1,11 +1,11 @@
-import React, { useState } from "react";
-import html from "../../public/html.png";
-import css from "../../public/css.jpg";
-import java from "../../public/java.png";
-import javascript from "../../public/javascript.png";
-import reactjs from "../../public/reactjs.png";
-import express from "../../public/express.png";
-import mongodb from "../../public/mongodb.jpg";
+import  { useState } from "react";
+import html from "/html.png";
+import css from "/css.jpg";
+import java from "/java.png";
+import javascript from "/javascript.png";
+import reactjs from "/reactjs.png";
+import express from "/express.png";
+import mongodb from "/mongodb.jpg";
 
 function Experience() {
   const [fullscreenVideo, setFullscreenVideo] = useState(null);
