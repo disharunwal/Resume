@@ -22,7 +22,7 @@ function Navbar() {
           <div>
             <h1 className="font-semibold text-xl cursor-pointer">
               Dish<span className="text-red-500 text-2xl">a</span>
-              <p className="text-sm">Web Developer</p>
+              <p className="text-sm">Software Developer</p>
             </h1>
           </div>
         </div>
