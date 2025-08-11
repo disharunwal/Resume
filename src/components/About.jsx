@@ -55,8 +55,8 @@ function About() {
                 <li className="flex items-start">
                   <span className="mr-2 mt-1">•</span>
                   <span>
-                    <strong>Frontend Development</strong> - Technohack<br />
-                    <span className="text-sm text-gray-500 dark:text-gray-400">2 months</span>
+                    <strong>Frontend Development</strong> - Gemburg Private Limited<br />
+                    <span className="text-sm text-gray-500 dark:text-gray-400">5 months</span>
                   </span>
                 </li>
                 <li className="flex items-start">
@@ -98,6 +98,14 @@ function About() {
               </h2>
               <p className="text-gray-700 dark:text-gray-300">
                 <strong>Winner of G20 PPT Presentation</strong> - Walchand Institute of Technology (2022-2023)
+              </p>
+            </div>
+             <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow-sm">
+              <h2 className="text-2xl font-semibold mb-4 text-[#800020]">
+                Job
+              </h2>
+              <p className="text-gray-700 dark:text-gray-300">
+                <strong>Software Engineer</strong> at Gemburg Private Limited USA Based Company
               </p>
             </div>
           </div>
